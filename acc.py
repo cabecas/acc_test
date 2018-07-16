@@ -15,12 +15,12 @@ import matplotlib.pyplot as plt
 
 
 def read_file(fileread, folha):
-    '''
+    """
     Goal: Make data available in Python from the source;
     Input1: Excel file, with type xls;
     Input2: Name of the sheet in the file passed as Input1;
     Output: pandas.df with raw data
-    '''
+    """
             
     xls = ('.xls')
     file = fileread + xls
@@ -292,10 +292,10 @@ plotting(all_pulses)
 
 
 
-#Future Work:
+# Future Work:
     # Aplicar para outros perfis de pH;
     # Construir o código para gerar as regressões e valores de k
     # Criar o código para extrair as quedas de pH durante a fase de alimentação
-#(será que tem interesse?)
+# (será que tem interesse?)
     # Criar código para extrair TODOS os valores para um dado pulso e não apenas
-#a fase inicial
+# a fase inicial

@@ -15,12 +15,12 @@ import matplotlib.pyplot as plt
 
 
 def read_file(fileread, folha):
-    '''
+    """
     Goal: Make data available in Python from the source;
     Input1: Excel file, with type xls;
     Input2: Name of the sheet in the file passed as Input1;
     Output: pandas.df with raw data
-    '''
+    """
             
     xls = ('.xls')
     file = fileread + xls
@@ -59,7 +59,7 @@ def cleaning(table, analise='pH'):
     matnp = matnp.astype(float).round(3)
     return matnp
 
-#This function won't be used in this project
+# This function won't be used in this project
 def ret_date(table):
     '''
     Goal: This function will support the final report of this analysis by 
@@ -96,7 +96,7 @@ def linreg(x, y):
     slope = (sum_xy - (sum_x*sum_y)/n)/(sum_xx - (sum_x*sum_x)/n)
     
     # formula for w1
-    #intercept = sum_y/n - slope*(sum_x/n)
+    # intercept = sum_y/n - slope*(sum_x/n)
     
     return slope
 
@@ -116,7 +116,7 @@ def declive(mat,window=10):
     
     slope = np.zeros((len(mat), 1))
     
-    #calculating dy/dx
+    # calculating dy/dx
     for i in range(0, slope.shape[0]-window+1):
         slope_x = linreg(mat[i:window+i,0], mat[i:window+i,1])
         slope[i+window-1] = slope_x
@@ -124,7 +124,7 @@ def declive(mat,window=10):
     
     slope_dydx=np.concatenate((mat, slope1), axis=1)
     
-    #calculating d2y/dx2
+    # calculating d2y/dx2
     for i in range(0, slope.shape[0]-window+1):
         slope_x2 = linreg(slope_dydx[i:window+i,0], slope_dydx[i:window+i,2])
         slope[i+window-1] = slope_x2
@@ -292,10 +292,10 @@ plotting(all_pulses)
 
 
 
-#Future Work:
+# Future Work:
     # Aplicar para outros perfis de pH;
     # Construir o código para gerar as regressões e valores de k
     # Criar o código para extrair as quedas de pH durante a fase de alimentação
-#(será que tem interesse?)
+# (será que tem interesse?)
     # Criar código para extrair TODOS os valores para um dado pulso e não apenas
-#a fase inicial
+# a fase inicial

@@ -290,8 +290,6 @@ plotting(all_pulses)
 
 
 
-
-
 # Future Work:
     # Aplicar para outros perfis de pH;
     # Construir o código para gerar as regressões e valores de k
@@ -299,3 +297,48 @@ plotting(all_pulses)
 # (será que tem interesse?)
     # Criar código para extrair TODOS os valores para um dado pulso e não apenas
 # a fase inicial
+
+
+
+xval=np.array([1,2,3,4,5,6,7,8,9,10])[:,None]
+yval=np.array([4,5,6,5,4,3,2,1,2,3])[:,None]
+xy=np.concatenate((xval,yval),axis=1)
+test=declive(xy, 2)
+fig, ax1 = plt.subplots(figsize=(10,6))
+plt.plot(test[:,0],test[:,1])
+ax1.tick_params(axis='y', labelcolor='w', labelsize=14)
+ax1.tick_params(axis='x', labelcolor='w', labelsize=14)
+print(test[0:9])
+
+
+
+matnp=cleaning(read_file('pH412.test','Folha4'))
+slope_array=declive(matnp)
+print(slope_array[0:6,:])
+
+slope_array[:,2]=slope_array[:,2]*10
+slope_array[:,3]=slope_array[:,3]*10
+
+fig, ax1 = plt.subplots(figsize=(10,6))
+
+color = 'tab:red'
+ax1.set_xlabel('time (min)', color='w', fontsize=12)
+ax1.set_ylabel('pH', color='w', fontsize=12)
+ax1.plot(slope_array[:,0],slope_array[:,1], color=color)
+ax1.tick_params(axis='y', labelcolor='w', labelsize=14)
+ax1.tick_params(axis='x', labelcolor='w', labelsize=14)
+
+ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
+
+color = 'tab:blue'
+ax2.set_ylabel('slope', color='w', fontsize=12)  # we already handled the x-label with ax1
+ax2.plot(slope_array[:,0],slope_array[:,2], color=color)
+ax2.tick_params(axis='y', labelcolor='w', labelsize=14)
+
+color = 'tab:green'
+ax2.plot(slope_array[:,0],slope_array[:,3], color=color)
+
+plt.legend(['pH','dydx','d2ydx2'])
+plt.xlim([100,400])
+
+plt.show()

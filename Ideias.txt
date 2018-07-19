@@ -1,4 +1,6 @@
-Ou então, usar esta função para inserir os declives de x e y e fazer append aos 3 vectores. E isto seria uma
-função intermediária. A seguir entrava a breakingbad para cortar em função do declive;
+# -*- coding: utf-8 -*-
+
+Ou entÃ£o, usar esta funÃ§Ã£o para inserir os declives de x e y e fazer append aos 3 vectores. E isto seria uma
+funÃ§Ã£o intermediÃ¡ria. A seguir entrava a breakingbad para cortar em funÃ§Ã£o do declive;
 
 Ver nos slides como fazer aquele subset movel de n pontos

@@ -160,10 +160,11 @@ def selecting(mat, slopes=2, fraction=1/4,
     Output1: 1D np.array with data of time;
     Output2: 1D np.array with data of pH.
     '''
+
     if slopes == 1:
         
         t = []
-        pH=[]
+        pH = []
     
         for i in np.arange(0, mat.shape[0]):
             if mat[i, 2] > target_slope1:
@@ -177,19 +178,19 @@ def selecting(mat, slopes=2, fraction=1/4,
         n=round(mat.shape[0]*fraction)
         
         t = []
-        pH=[]
+        pH = []
     
         for i in np.arange(0, n):
             if mat[i, 2] > target_slope1:
-                t=np.append(t, mat[i-shift, 0])
-                pH=np.append(pH, mat[i-shift, 1])    
+                t = np.append(t, mat[i-shift, 0])
+                pH = np.append(pH, mat[i-shift, 1])
                 
         for i in np.arange(n+1, mat.shape[0]):
             if mat[i, 2] > target_slope2:
-                t=np.append(t, mat[i-shift, 0])
-                pH=np.append(pH, mat[i-shift, 1]) 
+                t = np.append(t, mat[i-shift, 0])
+                pH = np.append(pH, mat[i-shift, 1])
             
-        return t,pH
+        return t, pH
 
 
 def breaking(t,pH):
@@ -211,7 +212,7 @@ def breaking(t,pH):
             
         elif pulse != []:
             AT = np.array(pulse)
-            AT[:,0] = AT[:,0]-AT[0,0]
+            AT[:, 0] = AT[:, 0]-AT[0, 0]
             all_pulses.append(AT)
             pulse = []
     
@@ -236,14 +237,15 @@ def breaking2(all_pulses, pulsos=5, set_point=1):
     Output: a list of numpy arrays with t and corresponding pH values, as before,
     but now with the length equal to the Input2 (pulsos).
     '''
-    a=len(all_pulses)
-    j=0
+
+    a = len(all_pulses)
+    j = 0
     
     while j != pulsos:
         try:
             for i in np.arange(a):
-                maxi = max(all_pulses[i][:,1])
-                mini = min(all_pulses[i][:,1])
+                maxi = max(all_pulses[i][:, 1])
+                mini = min(all_pulses[i][:, 1])
             
                 if maxi - mini < set_point:
                     del(all_pulses[i])
@@ -251,7 +253,7 @@ def breaking2(all_pulses, pulsos=5, set_point=1):
                     
         except IndexError:
             pass
-        j=len(all_pulses)
+        j = len(all_pulses)
         print(j)    
         
     return all_pulses
@@ -263,11 +265,12 @@ def plotting(data):
     Input: The result of the function breaking2;
     Output: A plot;
     '''
+
     n = len(data)
-    fig,ax = plt.subplots(figsize=(12,6)) #create figure and axes
+    fig, ax = plt.subplots(figsize=(12, 6)) #create figure and axes
     for i in np.arange(n):
     #now plot data set i
-        ax.plot(data[i][:,0], data[i][:,1])
+        ax.plot(data[i][:, 0], data[i][:, 1])
         plt.plot()
         plt.legend(np.arange(n)+1)
         ax.set_xlabel('time (min)', color='w', fontsize=12)
@@ -279,13 +282,13 @@ def plotting(data):
 
 #testing declive - Resultado Final
         
-mat=read_file('pH412.test','Folha4')
-clean=cleaning(mat, analise='pH')
-slopes=declive(clean, window=100)
-t,pH=selecting(slopes, slopes=2, fraction=1/4, 
+mat = read_file('pH412.test', 'Folha4')
+clean = cleaning(mat, analise='pH')
+slopes = declive(clean, window=100)
+t,pH = selecting(slopes, slopes=2, fraction=1/4,
               target_slope1=0.02, target_slope2=0.001, shift=50)
-all_pulses=breaking(t,pH)
-all_pulses=breaking2(all_pulses, pulsos=5, set_point=1)
+all_pulses = breaking(t, pH)
+all_pulses = breaking2(all_pulses, pulsos=5, set_point=1)
 plotting(all_pulses)
 
 
@@ -297,48 +300,3 @@ plotting(all_pulses)
 # (será que tem interesse?)
     # Criar código para extrair TODOS os valores para um dado pulso e não apenas
 # a fase inicial
-
-
-
-xval=np.array([1,2,3,4,5,6,7,8,9,10])[:,None]
-yval=np.array([4,5,6,5,4,3,2,1,2,3])[:,None]
-xy=np.concatenate((xval,yval),axis=1)
-test=declive(xy, 2)
-fig, ax1 = plt.subplots(figsize=(10,6))
-plt.plot(test[:,0],test[:,1])
-ax1.tick_params(axis='y', labelcolor='w', labelsize=14)
-ax1.tick_params(axis='x', labelcolor='w', labelsize=14)
-print(test[0:9])
-
-
-
-matnp=cleaning(read_file('pH412.test','Folha4'))
-slope_array=declive(matnp)
-print(slope_array[0:6,:])
-
-slope_array[:,2]=slope_array[:,2]*10
-slope_array[:,3]=slope_array[:,3]*10
-
-fig, ax1 = plt.subplots(figsize=(10,6))
-
-color = 'tab:red'
-ax1.set_xlabel('time (min)', color='w', fontsize=12)
-ax1.set_ylabel('pH', color='w', fontsize=12)
-ax1.plot(slope_array[:,0],slope_array[:,1], color=color)
-ax1.tick_params(axis='y', labelcolor='w', labelsize=14)
-ax1.tick_params(axis='x', labelcolor='w', labelsize=14)
-
-ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
-
-color = 'tab:blue'
-ax2.set_ylabel('slope', color='w', fontsize=12)  # we already handled the x-label with ax1
-ax2.plot(slope_array[:,0],slope_array[:,2], color=color)
-ax2.tick_params(axis='y', labelcolor='w', labelsize=14)
-
-color = 'tab:green'
-ax2.plot(slope_array[:,0],slope_array[:,3], color=color)
-
-plt.legend(['pH','dydx','d2ydx2'])
-plt.xlim([100,400])
-
-plt.show()

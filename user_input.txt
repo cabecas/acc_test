@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+
+Criar ficheiros .txt de apoio a cada um dos módulos, eventualmente ao módulo final (módulo que pega nas várias funções e devolve resultado final);
+Estes ficheiros terão os dados reais, parametros que o utilziador pretende, etc...
+Deve estar do seguinte modo:
+
+Window:
+100
+
+Nº de pulsos:
+10
+
+Tamanho do pulso (s):
+300
+
+

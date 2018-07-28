@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+
+Criar ficheiros .txt de apoio a cada um dos módulos;
+Reestruturar os módulos, tal como está em Ideias.txt;
+Trabalhar em future_work.py;
+Passar o código do módulo future_work.py para outro módulo na reestruturação;
+
+# Future Work:
+    # Aplicar para outros perfis de pH;
+    # Construir o código para gerar as regressões e valores de k
+    # Criar o código para extrair as quedas de pH durante a fase de alimentação
+# (será que tem interesse?)
+    # Criar código para extrair TODOS os valores para um dado pulso e não apenas
+# a fase inicial

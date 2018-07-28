@@ -293,10 +293,3 @@ plotting(all_pulses)
 
 
 
-# Future Work:
-    # Aplicar para outros perfis de pH;
-    # Construir o código para gerar as regressões e valores de k
-    # Criar o código para extrair as quedas de pH durante a fase de alimentação
-# (será que tem interesse?)
-    # Criar código para extrair TODOS os valores para um dado pulso e não apenas
-# a fase inicial

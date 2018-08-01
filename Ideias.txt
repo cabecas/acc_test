@@ -1,24 +1,19 @@
 # -*- coding: utf-8 -*-
 
-Ou então, usar esta função para inserir os declives de x e y e fazer append aos 3 vectores. E isto seria uma
-função intermediária. A seguir entrava a breakingbad para cortar em função do declive;
-
-Ver nos slides como fazer aquele subset movel de n pontos
-
 Criar multiplos módulos em função do que cada faz:
     - Import/export de informação
     - Cálculos
     - Regressões, plots, etc..
 
-Criar ficheiros .txt de apoio a cada um dos módulos, eventualmente ao módulo final (módulo que pega nas várias funções e devolve resultado final);
-Estes ficheiros terão os dados reais, parametros que o utilziador pretende, etc...
-Deve estar do seguinte modo:
+Exemplo:
+ - imp.py (import material (data do Excel, txt com parametros, ..)
+ - exp.py (cria o relatório final da análise)
+ - cal.py (substitui o acc.py que já existe)
+ - fun.py (funções de regressão, eu já tinha duas diferentes)
+ - reg.py (regressão propriamente dita???)
+ - exec.py (ficheiro que corre esta tralha toda)
 
-Window:
-100
+----------------------------------------------------------------
 
-Nº de pulsos:
-10
+Como optmizar a parte de testes do Projecto??
 
-Tamanho do pulso (s):
-300

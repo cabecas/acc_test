@@ -4,11 +4,11 @@ Criar ficheiros .txt de apoio a cada um dos módulos, eventualmente ao módulo f
 Estes ficheiros terão os dados reais, parametros que o utilziador pretende, etc...
 Deve estar do seguinte modo:
 
-Window:
-100
-
 Nº de pulsos:
 10
+
+Window:
+100
 
 Tamanho do pulso (s):
 300

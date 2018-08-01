@@ -1,6 +1,19 @@
 # -*- coding: utf-8 -*-
 
-Ou então, usar esta função para inserir os declives de x e y e fazer append aos 3 vectores. E isto seria uma
-função intermediária. A seguir entrava a breakingbad para cortar em função do declive;
+Criar multiplos módulos em função do que cada faz:
+    - Import/export de informação
+    - Cálculos
+    - Regressões, plots, etc..
 
-Ver nos slides como fazer aquele subset movel de n pontos
+Exemplo:
+ - imp.py (import material (data do Excel, txt com parametros, ..)
+ - exp.py (cria o relatório final da análise)
+ - cal.py (substitui o acc.py que já existe)
+ - fun.py (funções de regressão, eu já tinha duas diferentes)
+ - reg.py (regressão propriamente dita???)
+ - exec.py (ficheiro que corre esta tralha toda)
+
+----------------------------------------------------------------
+
+Como optmizar a parte de testes do Projecto??
+

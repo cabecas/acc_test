@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c23369-bd8e-4bef-80a4-b644561303bc" name="Default" comment="Conas 2">
+      <change afterPath="$PROJECT_DIR$/exec_david" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/acc_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/acc_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acc.py" beforeDir="false" afterPath="$PROJECT_DIR$/acc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reg.py" beforeDir="false" afterPath="$PROJECT_DIR$/reg.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,39 +21,42 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="36" />
+          <entry key="Python Console" value="174" />
+          <entry key="exec_david" value="278" />
           <entry key="imp" value="11" />
-          <entry key="py" value="102" />
+          <entry key="py" value="678" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="149" />
+          <entry key="Python" value="1141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="26" />
+          <entry key="exec_david" value="1" />
+          <entry key="py" value="32" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="26" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.remote" value="1" />
+          <entry key="git.branch.checkout.remote" value="2" />
           <entry key="git.branch.compare" value="1" />
           <entry key="git.branch.merge" value="3" />
         </counts>
@@ -60,17 +68,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="-1768">
+              <caret selection-end-line="280" selection-end-column="62" />
+              <folding>
+                <element signature="e#228#246#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1539609742062" expanded="true" signature="110:112" ph="..." />
+                <marker date="1539609742062" expanded="true" signature="265:270" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/imp.py">
+        <entry file="file://$PROJECT_DIR$/exec_david">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="357">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/curve_fit_pulse_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="30" selection-start-line="30" selection-end-line="33" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/curve_fit_profile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="55" selection-start-line="39" selection-end-line="55" />
+              <folding>
+                <element signature="e#22#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,24 +147,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/curve_fit_profile.py" />
-        <option value="$PROJECT_DIR$/reg.py" />
-        <option value="$PROJECT_DIR$/curve_fit_pulse_1.py" />
         <option value="$PROJECT_DIR$/imp.py" />
+        <option value="$PROJECT_DIR$/curve_fit_profile.py" />
+        <option value="$PROJECT_DIR$/acc.py" />
+        <option value="$PROJECT_DIR$/curve_fit_pulse_1.py" />
+        <option value="$PROJECT_DIR$/reg.py" />
+        <option value="$PROJECT_DIR$/exec_david" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="110" />
-    <option name="y" value="75" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,11 +178,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/ProgramData/Anaconda3/Scripts/conda.exe" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -143,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.curve_fit_profile">
+  <component name="RunManager" selected="Python.reg">
     <configuration name="acc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="acc_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,19 +281,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="reg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="acc_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.curve_fit_pulse_1" />
       <item itemvalue="Python.curve_fit_profile" />
       <item itemvalue="Python.imp" />
       <item itemvalue="Python.acc" />
+      <item itemvalue="Python.reg" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reg" />
         <item itemvalue="Python.acc" />
         <item itemvalue="Python.imp" />
         <item itemvalue="Python.curve_fit_profile" />
         <item itemvalue="Python.curve_fit_pulse_1" />
-        <item itemvalue="Python.curve_fit_profile" />
       </list>
     </recent_temporary>
   </component>
@@ -307,24 +382,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.22818792" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.23154363" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.22818792" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49966952" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49966952" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966952" weight="0.32765958" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5009914" side_tool="true" weight="0.32719547" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49834764" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49966952" weight="0.3248227" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49834764" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3716312" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Run" order="3" sideWeight="0.4990086" visible="true" weight="0.3362416" />
-      <window_info anchor="right" id="Python Console" order="4" weight="0.37248322" />
+      <window_info anchor="right" id="Run" order="3" sideWeight="0.4990086" weight="0.3362416" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,34 +439,14 @@
     <MESSAGE value="Conas 3" />
     <option name="LAST_COMMIT_MESSAGE" value="Conas 3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/acc.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/future_work.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fun.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test_david.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reg.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Next.txt">
@@ -423,20 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/curve_fit_pulse_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -447,27 +494,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/curve_fit_profile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="357">
+          <caret line="55" selection-start-line="39" selection-end-line="55" />
           <folding>
             <element signature="e#22#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acc.py">
+    <entry file="file://$PROJECT_DIR$/fun.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curve_fit_pulse_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="242">
+          <caret line="30" selection-start-line="30" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp.py">
+    <entry file="file://$PROJECT_DIR$/acc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-1768">
+          <caret selection-end-line="280" selection-end-column="62" />
+          <folding>
+            <element signature="e#228#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1539609742062" expanded="true" signature="110:112" ph="..." />
+            <marker date="1539609742062" expanded="true" signature="265:270" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec_david">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

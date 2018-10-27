@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-Reestruturar os módulos, tal como está em Ideias.txt;
-Desenvolver o ficheiro user_input.txt e mete-lo funcional;
+
+
 Trabalhar em future_work.py;
 Passar o código do módulo future_work.py para outro módulo na reestruturação;
 
@@ -13,3 +13,9 @@ Passar o código do módulo future_work.py para outro módulo na reestruturaçã
     # Criar o código para extrair as quedas de pH durante a fase de alimentação
 # (será que tem interesse?)
     # Tempo entre pulsos?
+
+
+# Reestruturar os módulos, tal como está em Ideias.txt; (Deverá ficar para depois do código ficar completo e funcional)
+
+Desenvolver o ficheiro user_input.txt e mete-lo funcional; Esta deverá ser a última parte. No final de tudo, pode-se
+ajustar as funções àquele ficheiro. Até porque só no final é que faz sentido perceber o que irá para o ficheiro .txt.

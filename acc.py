@@ -281,16 +281,14 @@ def plotting(data):
         ax.tick_params(axis='x', labelcolor='w', labelsize=14)
 
 
-# testing declive - Resultado Final
+#testing declive - Resultado Final
+        
+mat = read_file('pH412.test', 'Folha4')
+clean = cleaning(mat, analise='pH')
+slopes = declive(clean, window=100)
+t,pH = selecting(slopes, slopes=2, fraction=1/4,
+              target_slope1=0.02, target_slope2=0.001, shift=50)
+all_pulses = breaking(t, pH)
+all_pulses = breaking2(all_pulses, pulsos=5, set_point=1)
+plotting(all_pulses)
 
-if __name__ == "__main__":
-
-
-    mat = read_file('pH412.test', 'Folha4')
-    clean = cleaning(mat, analise='pH')
-    slopes = declive(clean, window=100)
-    t, pH = selecting(slopes, slopes=2, fraction=1 / 4,
-                  target_slope1=0.02, target_slope2=0.001, shift=50)
-    all_pulses = breaking(t, pH)
-    all_pulses = breaking2(all_pulses, pulsos=5, set_point=1)
-    plotting(all_pulses)

@@ -290,6 +290,3 @@ t,pH = selecting(slopes, slopes=2, fraction=1/4,
 all_pulses = breaking(t, pH)
 all_pulses = breaking2(all_pulses, pulsos=5, set_point=1)
 plotting(all_pulses)
-
-
-

@@ -1,3 +1,5 @@
+# ficheiro que corre esta tralha toda
+
 import acc as acc
 import fun
 import future

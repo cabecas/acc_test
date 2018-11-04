@@ -13,7 +13,7 @@ Nº de pulsos:
 10
 
 Window:
-100
+100 (acc.py)
 
 Tamanho do pulso (s):
 300

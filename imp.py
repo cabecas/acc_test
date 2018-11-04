@@ -1,3 +1,5 @@
+# import material (data do Excel, txt com parametros, ..
+
 '''Importing Stuff'''
 
 import pandas as pd

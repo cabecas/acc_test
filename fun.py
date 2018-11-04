@@ -1,3 +1,5 @@
+# funções de regressão, eu já tinha duas diferentes
+
 import numpy as np
 
 def func(t, A, k, C):

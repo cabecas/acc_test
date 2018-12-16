@@ -1,12 +1,11 @@
-# ficheiro que corre esta tralha toda
-
 import acc as acc
 import fun
 import future
+import importdata as imp
 
 # executing acc.py file
 
-mat = acc.read_file('pH412.test', 'Folha4')
+mat = imp.read_file('pH412.test', 'Folha4')
 clean = acc.cleaning(mat, analise='pH')
 slopes = acc.declive(clean, window=100)
 t, pH = acc.selecting(slopes, slopes=2, fraction=1/4,

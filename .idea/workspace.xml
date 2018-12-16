@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c23369-bd8e-4bef-80a4-b644561303bc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/importdata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acc.py" beforeDir="false" afterPath="$PROJECT_DIR$/acc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curve_fit_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/curve_fit_pulse_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec.py" beforeDir="false" afterPath="$PROJECT_DIR$/exec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exec_david" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp.py" beforeDir="false" afterPath="$PROJECT_DIR$/exportdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/fun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imp.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reg.py" beforeDir="false" afterPath="$PROJECT_DIR$/reg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/user_input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,47 +70,46 @@
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="acc_test" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="exec_david" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exec_david">
+    <leaf>
+      <file leaf-file-name="exec.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="90">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imp.py">
+      <file leaf-file-name="importdata.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/importdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="284">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reg.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reg.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-              <folding>
-                <element signature="e#34#52#0" expanded="true" />
-                <marker date="1544136434156" expanded="true" signature="1457:1460" ph="..." />
-              </folding>
+            <state relative-caret-position="18">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="acc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acc.py">
+      <file leaf-file-name="user_input.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user_input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="141" column="29" selection-end-line="298" />
-              <folding>
-                <element signature="e#238#256#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -108,8 +117,38 @@
       <file leaf-file-name="fun.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fun.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="342">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exportdata.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exportdata.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="future.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/future.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1692">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="287" column="24" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
+              <folding>
+                <element signature="e#238#256#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,32 +174,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/curve_fit_profile.py" />
-        <option value="$PROJECT_DIR$/curve_fit_pulse_1.py" />
         <option value="$PROJECT_DIR$/exec_david" />
         <option value="$PROJECT_DIR$/z1.py" />
         <option value="$PROJECT_DIR$/exp.py" />
-        <option value="$PROJECT_DIR$/imp.py" />
-        <option value="$PROJECT_DIR$/fun.py" />
-        <option value="$PROJECT_DIR$/exec.py" />
         <option value="$PROJECT_DIR$/Ideias.txt" />
-        <option value="$PROJECT_DIR$/user_input.txt" />
         <option value="$PROJECT_DIR$/Next.txt" />
-        <option value="$PROJECT_DIR$/acc.py" />
+        <option value="$PROJECT_DIR$/curve_fit_pulse_1.py" />
+        <option value="$PROJECT_DIR$/fun.py" />
+        <option value="$PROJECT_DIR$/imp.py" />
+        <option value="$PROJECT_DIR$/exec.py" />
         <option value="$PROJECT_DIR$/reg.py" />
+        <option value="$PROJECT_DIR$/acc.py" />
+        <option value="$PROJECT_DIR$/importdata.py" />
+        <option value="$PROJECT_DIR$/user_input.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="227" />
-    <option name="y" value="3" />
-    <option name="width" value="977" />
-    <option name="height" value="1012" />
+    <option name="x" value="-1927" />
+    <option name="width" value="1188" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,21 +208,16 @@
               <item name="acc_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="acc_test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="acc_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acc_test" type="462c0819:PsiDirectoryNode" />
-              <item name="curve_fit_pulse_1.py" type="8704e2dd:PyFileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="C:/ProgramData/Anaconda3/Scripts/conda.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,7 +298,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/imp.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ferna\PycharmProjects\acc_test\importdata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -360,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541367221828</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="função return_parameter criada e está funcional para o ficheiro 412.xls">
+      <created>1544260586642</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544260586642</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -373,18 +415,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1927" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="-1927" y="0" width="1188" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="0" weight="0.25104022" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.23304157" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49709302" visible="true" weight="0.16902655" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966952" weight="0.32765958" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5009914" side_tool="true" weight="0.32564843" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49834764" weight="0.3286119" />
-      <window_info active="true" anchor="right" x="827" y="84" width="625" height="793" id="Python Console" order="5" type="WINDOWED" visible="true" weight="0.43976545" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5009914" side_tool="true" weight="0.32478634" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49834764" weight="0.2431243" />
+      <window_info anchor="right" x="-745" y="31" width="744" height="1008" id="Python Console" order="5" type="WINDOWED" visible="true" weight="0.43976545" />
       <window_info anchor="right" id="Run" order="4" sideWeight="0.4990086" weight="0.33526012" />
-      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.22818792" />
+      <window_info id="Structure" order="1" sideWeight="0.502907" side_tool="true" weight="0.202407" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49966952" weight="0.3248227" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.502907" side_tool="true" weight="0.202407" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,8 +437,28 @@
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49834764" weight="0.2431243" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49709302" visible="true" weight="0.16902655" />
+      <window_info id="Structure" order="1" sideWeight="0.502907" side_tool="true" weight="0.202407" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966952" weight="0.32765958" />
+      <window_info anchor="right" id="Run" order="4" sideWeight="0.4990086" weight="0.33526012" />
+      <window_info active="true" anchor="right" x="-745" y="31" width="744" height="1008" id="Python Console" order="5" type="WINDOWED" visible="true" weight="0.43976545" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49966952" weight="0.3248227" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5009914" side_tool="true" weight="0.32478634" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="0" weight="0.25104022" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info id="Favorites" order="2" sideWeight="0.502907" side_tool="true" weight="0.202407" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -430,7 +494,8 @@
     <MESSAGE value="Conas 2" />
     <MESSAGE value="Conas 3" />
     <MESSAGE value="Eliminei todos os ficheiros .txt que orientavam o projecto, tendo passado a informação para o github." />
-    <option name="LAST_COMMIT_MESSAGE" value="Eliminei todos os ficheiros .txt que orientavam o projecto, tendo passado a informação para o github." />
+    <MESSAGE value="função return_parameter criada e está funcional para o ficheiro 412.xls" />
+    <option name="LAST_COMMIT_MESSAGE" value="função return_parameter criada e está funcional para o ficheiro 412.xls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -441,10 +506,62 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec_david">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/importdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2919">
+          <caret line="141" column="29" selection-end-line="298" />
+          <folding>
+            <element signature="e#238#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/curve_fit_profile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -466,7 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp.py">
+    <entry file="file://$PROJECT_DIR$/importdata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
@@ -477,10 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding>
-            <element signature="e#34#52#0" expanded="true" />
-            <marker date="1544136434156" expanded="true" signature="1457:1460" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,7 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp.py">
+    <entry file="file://$PROJECT_DIR$/importdata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
@@ -540,7 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imp.py">
+    <entry file="file://$PROJECT_DIR$/importdata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
@@ -608,45 +721,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Documentos/Github/acc_test/acc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/future.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -660,24 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exec.py">
+    <entry file="file://$USER_HOME$/KiteOnboarding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" selection-start-line="6" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/curve_fit_profile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/curve_fit_pulse_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="21">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -688,17 +752,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curve_fit_profile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/curve_fit_pulse_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/future.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="141" column="29" selection-end-line="298" />
+        <state relative-caret-position="698">
+          <caret line="287" column="24" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
           <folding>
             <element signature="e#238#256#0" expanded="true" />
           </folding>
@@ -707,12 +819,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-          <folding>
-            <element signature="e#34#52#0" expanded="true" />
-            <marker date="1544136434156" expanded="true" signature="1457:1460" ph="..." />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/importdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

@@ -8,13 +8,16 @@ e no final, deixar os parametros que mais se usam em cima.
 
 Deve estar do seguinte modo:
 
-Nº de pulsos:
-#Aqui deve estar uma descrição do que é este parametro
+# Aqui deve estar uma descrição do que é este parametro
+.Nº de pulsos
 10
 
-Window:
+.Window
 100 (acc.py)
 
-Tamanho do pulso (s):
+.Tamanho do pulso (s)
 300
+
+.Equação diferencial para a regressão (ex: ode11, ode12, ...)
+ode11
 

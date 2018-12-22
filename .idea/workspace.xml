@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c23369-bd8e-4bef-80a4-b644561303bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/importdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acc.py" beforeDir="false" afterPath="$PROJECT_DIR$/acc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curve_fit_profile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/curve_fit_pulse_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec.py" beforeDir="false" afterPath="$PROJECT_DIR$/exec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exec_david" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp.py" beforeDir="false" afterPath="$PROJECT_DIR$/exportdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/fun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reg.py" beforeDir="false" afterPath="$PROJECT_DIR$/reg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/user_input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,8 +68,8 @@
       <file leaf-file-name="exec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="522">
+              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -87,11 +77,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="importdata.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/importdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="59" />
+            <state relative-caret-position="684">
+              <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -99,17 +98,17 @@
       <file leaf-file-name="reg.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="108">
               <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_input.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user_input.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user_input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -182,18 +181,20 @@
         <option value="$PROJECT_DIR$/curve_fit_pulse_1.py" />
         <option value="$PROJECT_DIR$/fun.py" />
         <option value="$PROJECT_DIR$/imp.py" />
-        <option value="$PROJECT_DIR$/exec.py" />
         <option value="$PROJECT_DIR$/reg.py" />
         <option value="$PROJECT_DIR$/acc.py" />
-        <option value="$PROJECT_DIR$/importdata.py" />
         <option value="$PROJECT_DIR$/user_input.txt" />
+        <option value="$PROJECT_DIR$/exec.py" />
+        <option value="$PROJECT_DIR$/importdata.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1927" />
-    <option name="width" value="1188" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="502" />
+    <option name="height" value="425" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -402,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544260586642</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Passei a função read_files de acc.py para imp.py;&#10;imp.py agora chama-se importdata.py;&#10;exp.py agora chama-se exportdata.py;&#10;Já tenho reg.py a funcionar!! Já faço gráficos de k vs pulso;&#10;exec.py foi adaptado ao importdata.py;&#10;Já se lê ficheiros .txt (user_input.txt) e dá origem a um dicionário com a informação que o ficheiro contém!">
+      <created>1544998551778</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544998551778</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Meti o código a ser corrido com uma função chamada exec();&#10;Assim sendo, quer o código seja corrido com o pulso todo ou só uma parte, podemos ter multiplas funções nesse script que corre apenas partes;&#10;importdata.py foi alterado só em termos de formatação;&#10;user_input.txt foi só alterado de forma a ter mais informação sobre a razão pela qual é usado">
+      <created>1545488432092</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545488432092</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -415,16 +430,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1927" y="0" width="1188" height="1047" extended-state="0" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="0" weight="0.25104022" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49709302" visible="true" weight="0.16902655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49709302" visible="true" weight="0.10170394" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966952" weight="0.32765958" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5009914" side_tool="true" weight="0.32478634" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49834764" weight="0.2431243" />
-      <window_info anchor="right" x="-745" y="31" width="744" height="1008" id="Python Console" order="5" type="WINDOWED" visible="true" weight="0.43976545" />
+      <window_info anchor="right" x="8" y="-32737" width="1926" height="1063" id="Python Console" order="5" type="WINDOWED" visible="true" weight="0.43976545" />
       <window_info anchor="right" id="Run" order="4" sideWeight="0.4990086" weight="0.33526012" />
       <window_info id="Structure" order="1" sideWeight="0.502907" side_tool="true" weight="0.202407" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49966952" weight="0.3248227" />
@@ -495,7 +510,9 @@
     <MESSAGE value="Conas 3" />
     <MESSAGE value="Eliminei todos os ficheiros .txt que orientavam o projecto, tendo passado a informação para o github." />
     <MESSAGE value="função return_parameter criada e está funcional para o ficheiro 412.xls" />
-    <option name="LAST_COMMIT_MESSAGE" value="função return_parameter criada e está funcional para o ficheiro 412.xls" />
+    <MESSAGE value="Passei a função read_files de acc.py para imp.py;&#10;imp.py agora chama-se importdata.py;&#10;exp.py agora chama-se exportdata.py;&#10;Já tenho reg.py a funcionar!! Já faço gráficos de k vs pulso;&#10;exec.py foi adaptado ao importdata.py;&#10;Já se lê ficheiros .txt (user_input.txt) e dá origem a um dicionário com a informação que o ficheiro contém!" />
+    <MESSAGE value="Meti o código a ser corrido com uma função chamada exec();&#10;Assim sendo, quer o código seja corrido com o pulso todo ou só uma parte, podemos ter multiplas funções nesse script que corre apenas partes;&#10;importdata.py foi alterado só em termos de formatação;&#10;user_input.txt foi só alterado de forma a ter mais informação sobre a razão pela qual é usado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meti o código a ser corrido com uma função chamada exec();&#10;Assim sendo, quer o código seja corrido com o pulso todo ou só uma parte, podemos ter multiplas funções nesse script que corre apenas partes;&#10;importdata.py foi alterado só em termos de formatação;&#10;user_input.txt foi só alterado de forma a ter mais informação sobre a razão pela qual é usado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,9 +720,6 @@
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ideias.txt" />
     <entry file="file://$PROJECT_DIR$/Next.txt" />
     <entry file="file://$PROJECT_DIR$/z3.py">
@@ -776,10 +790,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/future.py">
+    <entry file="file://$PROJECT_DIR$/acc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1692">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="698">
+          <caret line="287" column="24" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
+          <folding>
+            <element signature="e#238#256#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -797,44 +814,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/future.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1692">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/importdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="522">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="287" column="24" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
-          <folding>
-            <element signature="e#238#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reg.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/importdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>

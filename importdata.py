@@ -1,6 +1,7 @@
 import pandas as pd
 
 def read_file(fileread, folha):
+
     """
     Goal: Make data available in Python from the source;
     Input1: Excel file, with type xls;
@@ -17,11 +18,17 @@ def read_file(fileread, folha):
 
 # File do read txt com parametros
 
-def read_txt(fileread = 'user_input.txt'):
+def read_txt(fileread='user_input.txt'):
+
+    """
+    Goal:
+    Input:
+    Output:
+    """
 
     f = open(fileread, 'r')
 
-    fl =f.readlines()
+    fl = f.readlines()
     for x in fl:
         print(x)
 
@@ -29,7 +36,15 @@ def read_txt(fileread = 'user_input.txt'):
 
     return fl
 
-def parameter_txt(f = read_txt()):
+def parameter_txt(f=read_txt()):
+
+    """
+    Goal: To work with data from the function read_txt; To clean it and return a dictionary
+    with all parameters; BEWARE: This works because each parameter starts with a dot ".";
+    Input: The output from read_txt function;
+    Output: A dictionary with pairs of parameter:value to be used later in the program; they
+    are strings, each key, each value
+    """
 
     d = dict()
 
@@ -49,9 +64,10 @@ def parameter_txt(f = read_txt()):
 
     return d
 
+
+
 if __name__ == '__main__':
     H = read_txt()
-
     print(parameter_txt())
 
 

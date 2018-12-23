@@ -1,3 +1,5 @@
+# cal.py
+
 # -*- coding: utf-8 -*-
 """
 Created on Sun May 20 10:09:37 2018
@@ -10,29 +12,13 @@ accumulation reactor in the pilot plant;
 
 '''Importing stuff'''
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
-
-
-
-def read_file(fileread, folha):
-    """
-    Goal: Make data available in Python from the source;
-    Input1: Excel file, with type xls;
-    Input2: Name of the sheet in the file passed as Input1;
-    Output: pandas.df with raw data
-    """
-
-    xls = ('.xls')
-    file = fileread + xls
-    xl = pd.ExcelFile(file)
-    xl = xl.parse(folha)
-
-    return xl
+import importdata as imp
 
 
 def cleaning(table, analise='pH'):
-    '''
+
+    """
     Goal: To wrangle one pandas.df into a simple 2D array, which will be easy to
     handle;
         
@@ -47,7 +33,7 @@ def cleaning(table, analise='pH'):
     Later, DO analysis will also be available;
     Output: Function returns a numpy 2D array with the data necessary for the 
     analysis.
-    '''
+    """
 
     table = table.rename(columns=table.iloc[7])
     table = table.drop(table.index[0:8], axis=0)
@@ -63,13 +49,14 @@ def cleaning(table, analise='pH'):
 
 # This function won't be used in this project
 def ret_date(table):
-    '''
+
+    """
     Goal: This function will support the final report of this analysis by 
     retrieving the date that the experiment took place;
     Input: The output of the file_read function; type -> pandas.df;
     Output: Function returns a string with the date the experiment took
     place.
-    '''
+    """
 
     date = table.iloc[8][0]
     date = date.isoformat(' ', 'seconds')
@@ -79,13 +66,14 @@ def ret_date(table):
 
 
 def linreg(x, y):
-    '''
+
+    """
     Goal: This function returns slope and intercept for a simple regression 
     line;
     Input1: takes one 1D numpy array with data to be used as x-data;
     Input2: takes one 1D numpy array with data to be used as y-data;
     Output: slope of the regression (dy/dx).
-    '''
+    """
 
     # initial sums
     n = float(len(x))
@@ -104,7 +92,8 @@ def linreg(x, y):
 
 
 def declive(mat, window=10):
-    '''
+
+    """
     Goal: Calculates dy/dx and d2y/dx2 for the vectors x and y, 
     taking into account the number of points given by the user 
     (variable name is window);
@@ -114,7 +103,7 @@ def declive(mat, window=10):
     Input2: range of values to taken into account to calculate the slope;
     Output: 2D np.array (m x 4) with the time, parameter and dy/dx and 
     d2y/dx2 values as columns.
-    '''
+    """
 
     slope = np.zeros((len(mat), 1))
 
@@ -139,7 +128,8 @@ def declive(mat, window=10):
 
 def selecting(mat, slopes=2, fraction=1 / 4,
               target_slope1=0.02, target_slope2=0.001, shift=50):
-    '''
+
+    """
     Goal: to select the data relevant for the analysis. Since the most
     important data is the data where the trend ph vs t is increasing (for
     the pH analysis), this is the data that will be selected. And due to
@@ -161,7 +151,7 @@ def selecting(mat, slopes=2, fraction=1 / 4,
     a loss of relevant data;
     Output1: 1D np.array with data of time;
     Output2: 1D np.array with data of pH.
-    '''
+    """
 
     if slopes == 1:
 
@@ -196,14 +186,15 @@ def selecting(mat, slopes=2, fraction=1 / 4,
 
 
 def breaking(t, pH):
-    '''
+
+    """
     Goal: After selecting all values of t and pH that are important for the
     analysis, it's important to break the values into a list of numpy arrays 
     so that a plot can later be done. This function does just that!
     Input1: t values obtained from the function selecting;
     Input2: pH values obtained from the function selecting;
     Output: a list of numpy arrays with t and corresponding pH values.
-    '''
+    """
 
     all_pulses = []
     pulse = []
@@ -222,7 +213,8 @@ def breaking(t, pH):
 
 
 def breaking2(all_pulses, pulsos=5, set_point=1):
-    '''
+
+    """
     Goal: Since the function selecting may not work well in the sense that will
     lead to too many sets of values in the breaking function, a second breaking
     function will be used in order to decrease the number of numpy arrays
@@ -238,7 +230,7 @@ def breaking2(all_pulses, pulsos=5, set_point=1):
     it is not, it has been included as parameter;
     Output: a list of numpy arrays with t and corresponding pH values, as before,
     but now with the length equal to the Input2 (pulsos).
-    '''
+    """
 
     a = len(all_pulses)
     j = 0
@@ -262,11 +254,12 @@ def breaking2(all_pulses, pulsos=5, set_point=1):
 
 
 def plotting(data):
-    '''
+
+    """
     Goal: To plot the result of the function breaking2;
     Input: The result of the function breaking2;
     Output: A plot;
-    '''
+    """
 
     n = len(data)
     fig, ax = plt.subplots(figsize=(12, 6))  # create figure and axes
@@ -282,13 +275,15 @@ def plotting(data):
 
 
 #testing declive - Resultado Final
-        
-mat = read_file('pH412.test', 'Folha4')
-clean = cleaning(mat, analise='pH')
-slopes = declive(clean, window=100)
-t,pH = selecting(slopes, slopes=2, fraction=1/4,
-              target_slope1=0.02, target_slope2=0.001, shift=50)
-all_pulses = breaking(t, pH)
-all_pulses = breaking2(all_pulses, pulsos=5, set_point=1)
-plotting(all_pulses)
+
+if __name__ == '__main__':
+
+    mat = imp.read_file('pH412.test', 'Folha4')
+    clean = cleaning(mat, analise='pH')
+    slopes = declive(clean, window=100)
+    t,pH = selecting(slopes, slopes=2, fraction=1/4,
+                  target_slope1=0.02, target_slope2=0.001, shift=50)
+    all_pulses = breaking(t, pH)
+    all_pulses = breaking2(all_pulses, pulsos=5, set_point=1)
+    plotting(all_pulses)
 

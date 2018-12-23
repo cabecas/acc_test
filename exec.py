@@ -1,19 +1,23 @@
 import acc as acc
 import fun
 import future
+import importdata as imp
 
 # executing acc.py file
+def exec():
 
-mat = acc.read_file('pH412.test', 'Folha4')
-clean = acc.cleaning(mat, analise='pH')
-slopes = acc.declive(clean, window=100)
-t, pH = acc.selecting(slopes, slopes=2, fraction=1/4,
-              target_slope1=0.02, target_slope2=0.001, shift=50)
+    mat = imp.read_file('pH412.test', 'Folha4')
+    clean = acc.cleaning(mat, analise='pH')
+    slopes = acc.declive(clean, window=100)
+    t, pH = acc.selecting(slopes, slopes=2, fraction=1/4,
+                  target_slope1=0.02, target_slope2=0.001, shift=50)
 
-all_pulses = acc.breaking(t, pH)
-all_pulses = acc.breaking2(all_pulses, pulsos=5,
-                           set_point=1)
-acc.plotting(all_pulses)
+    all_pulses = acc.breaking(t, pH)
+    all_pulses = acc.breaking2(all_pulses, pulsos=5,
+                               set_point=1)
+    acc.plotting(all_pulses)
+
+    return
 
 
 

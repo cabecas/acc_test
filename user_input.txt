@@ -12,7 +12,9 @@ Valor
 Quando este ficheiro é lido, lê apenas linhas que começam por ponto e assume que o valor
 da linha a seguir é relacionado com o parametro acima!!
 
-
+NOTA: Antes de correr o ficheiro Excel, abrir o ficheiro e ir a:
+Ficheiro -> Informações -> Verificar a Existência de Problemas ->
+Inspeccionar Documento -> Inspeccionar
 
 
 

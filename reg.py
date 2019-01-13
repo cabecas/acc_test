@@ -33,7 +33,7 @@ def pulse_reg(p1, func=fun.ode12):
 #b=pulse_reg(all_pulses[0])
 
 
-def return_parameter(profile=all_pulses, parameter='A'):
+def return_parameter(profile, parameter='k'):
 
     """
 
